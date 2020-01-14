@@ -1,6 +1,8 @@
 import os
 import urllib.request as req
 from urllib.parse import urlparse
+import urllib
+from http.cookiejar import CookieJar
 
 
 def download(url, to=None):
@@ -25,8 +27,10 @@ def download(url, to=None):
     print('Downloading file to {}'.format(localfile))
 
     if not os.path.isfile(localfile):
-        opener = req.build_opener()
-        opener.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0')]
+        cj = CookieJar()
+        opener = req.build_opener(urllib.request.HTTPCookieProcessor(cj))
+        # opener.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0')]
+        opener.addheaders = [('User-agent', 'Mozilla/5.0')]
         req.install_opener(opener)
         req.urlretrieve(url, localfile)
 
