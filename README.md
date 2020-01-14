@@ -9,7 +9,7 @@ Throughout the semester you must have **10 approved handins** to qualify for exa
 Preliminary Class schedule is shown below (subject to change)
 
 |Week|Time|Topic|Hand-in|
-|--|--|--|--|--|
+|--|--|--|--|
 |Week 5<br/>27-01-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Getting started, Python language features|NaN|
 |Week 6<br/>03-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts|NaN|
 |Week 7<br/>10-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Files, CLI, OO, Exceptions|NaN|
@@ -27,4 +27,6 @@ Preliminary Class schedule is shown below (subject to change)
 |Week 19<br/>04-05-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Exam Project period|None|
 |Week 20<br/>11-05-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Exam Project period|None|
 |Week 21<br/>18-05-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Exam Project period|None|
-|Week 21<br/>23-05-2020|Fredag 23:59|Handin exam project|Exam project|
+|Week 21<br/>23-05-2020|Fredag 23:59|Handin exam project|Exam project|  
+
+
