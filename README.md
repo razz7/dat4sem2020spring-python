@@ -11,14 +11,14 @@ Preliminary Class schedule is shown below (subject to change)
 |Week|Time|Topic|Hand-in|
 |--|--|--|--|
 |Week 5<br/>27-01-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Getting started, Python language features|[Ex 1](https://github.com/datsoftlyngby/dat4sem2020spring-python/blob/master/01-Exercise.ipynb)|
-|Week 6<br/>03-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules, Dicts|NaN|
+|Week 6<br/>03-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Whirlwind, Lists, Loops, Cond. Stmts., Functions, Modules|NaN|
 |Week 7<br/>10-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Files, CLI, OO, Exceptions|NaN|
 |Week 8<br/>17-02-2020|Video lectures **No Class**|Intro to Plotting|NaN|
 |Week 9<br/>24-02-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Intro to Numpy|NaN|
 |Week 10<br/>02-03-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Intro to Pandas|NaN|
 |Week 11<br/>09-03-2020|Class A: Monday 8:30-12:00<br/>Class B: Monday 12:30-16:00|Multiprocessing, generators and intro to Requests|NaN|
-|Week 12<br/>16-03-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Graphs & PageRank Algorithm|NaN|
-|Week 13<br/>23-03-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Webscraping Basics, Regular Expr. & Selenium|NaN|
+|Week 12<br/>16-03-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Webscraping Basics, Regular Expr. & Selenium|NaN|
+|Week 13<br/>23-03-2020|Class A: Monday 8:30-12:00<br/>Class B: Tuesday 12:30-16:00|Graphs & PageRank Algorithm|NaN|
 |Week 14<br/>30-03-2020|Monday 8:30-12:00|Feature spaces|NaN|
 |Week 15<br/>|PÅSKE|
 |Week 16<br/>13-04-2020|Tuesday 12:30 via zoom **both classes**|Neural Networks|NaN|
