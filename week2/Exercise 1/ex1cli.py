@@ -1,6 +1,6 @@
 import sys
 import getopt
-
+import ex1modul
 
 
 
@@ -20,13 +20,20 @@ def run(arguments):
     verbose = False
     for option, argument in opts:
         print(option)
-        if option == "-v":
-            verbose = True
-        elif option in ("-h", "--help"):
+        if option in ("-h", "--help"):
             print(usage())
             sys.exit()
-        else:
-            assert False, "unhandled option"
+               
+    if len(args) > 1:
+        response = ""
+        for lines in ex1modul.read_csv(args[0]):
+            response += s[0]
+        
+        ex1modul.write_list_to_file(args[1].split('=')[1], reaponse)
+        sys.exit()
+    else:
+        print(ex1modul.read_csv(args[0]))
+        sys.exit()
 
     print(output)
 
