@@ -2,7 +2,7 @@ import sys
 import getopt
 import ex1modul
 
-
+#could not get it to write result 
 
 def usage():
     return 'Usage : you can write to .csv files '
