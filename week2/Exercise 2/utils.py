@@ -17,3 +17,22 @@ def print_first_file_line(filename):
     for l in filename:
             with open(l, 'r') as File:
                 print(File.readline())
+
+                
+def print_emails(filenames):
+    for l in filenames:
+        if os.path.isfile(l):
+            with open(l, 'r') as File:
+                for lines in File:
+                    if '@' in lines:
+                        print(lines)
+                        
+                        
+def print_headers_md(filenames):
+    for l in filenames:
+        if os.path.isfile(l):
+            with open(l, 'r') as File:
+                for lines in File:
+                    if lines.startswith("#"):
+                        print(lines)
+                    
